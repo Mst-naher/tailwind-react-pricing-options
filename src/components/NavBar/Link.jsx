@@ -5,7 +5,7 @@ const Link = ({route}) => {
     <div>
       <ul className="flex">
         {
-          <li className="mr-10">
+          <li className="px-4 lg:mr-10 hover:bg-amber-400 cursor-pointer">
             <a href={route.path}>{route.name}</a>
           </li>
         }
